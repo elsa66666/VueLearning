@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mustache</title>
+    <style>
+        [v-cloak]{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="app" v-cloak>
+    <h3>双括号语法:</h3>
+    <h4>{{firstName+' '+lastName}}</h4>
+    <h4>{{firstName}} {{lastName}}</h4>
+    <h4>{{counter*2}}</h4>
+    <h3>v-once:值不随变化:</h3>
+    <h4 v-once>{{message}}</h4>
+    <h3>v-html:解析url链接:</h3>
+    <h4 v-html="url"></h4>
+    <h3>v-pre: 不转义任何信息:</h3>
+    <h4 v-pre>{{message}}</h4>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    setTimeout(function (){
+        const app = new Vue({
+            el:"#app",
+            data:{
+                firstName:'Kobe',
+                lastName:'Bryant',
+                counter:100,
+                message:'哈哈哈',
+                url:'<a href="http://www.baidu.com">百度一下</a>'
+            }
+        })
+    },1000) //延时1秒
+
+</script>
+</body>
+</html>

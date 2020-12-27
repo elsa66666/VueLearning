@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19dc01da-0d31-49c6-9ed2-86cf6507ea66" name="Default Changelist" comment="" />
+    <list default="true" id="19dc01da-0d31-49c6-9ed2-86cf6507ea66" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lETBEfiLaW1hsm9F9O8QI9QsDZ" />
   <component name="ProjectViewState">
@@ -15,7 +20,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -34,6 +39,8 @@
       <updated>1607161113097</updated>
       <workItem from="1607161114155" duration="2658000" />
       <workItem from="1608986202211" duration="820000" />
+      <workItem from="1609032517870" duration="2156000" />
+      <workItem from="1609066422925" duration="475000" />
     </task>
     <servers />
   </component>
